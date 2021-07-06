@@ -1,0 +1,723 @@
+/*
+##################
+# Styles General #
+##################
+*/
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("./fonts/Roboto-Regular.ttf");
+}
+  
+*{
+  font-family: "Roboto Regular";
+}
+  
+  
+
+.break{
+  margin-top: 200px !important;
+}
+  
+  
+body{
+  overflow-x: hidden;
+}
+  
+.navbar{
+  background: #fff !important;
+}
+  
+  
+.page{
+  margin-top: 106px;
+  
+}
+
+/*
+##########
+# Search #
+##########
+*/
+.search-container:hover{
+  transform: scale(1.12);
+}
+
+.search-container {
+  position: absolute;
+  display: flex;
+  left: 9%;
+  bottom: -40px;
+  transition: all 2s; 
+  width: 85%;
+}
+
+.search p{
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 25px;
+  color: #1d0068 !important;
+  text-transform: lowercase;
+}
+
+.btn-search{
+  width: 207px;
+  height: 79px;
+  background: #3cc376;
+  border-radius: 0px 40px 40px 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+###################
+# Styles of Boxes #
+###################
+*/
+.about-box{
+  height: 100% !important;
+}
+
+.box2{
+  background: #efefef;
+  
+  width: 56%;
+  height: auto;
+  border-radius: 8px;
+  transition: all 2s;
+  
+
+  position: relative;
+
+  animation: animate 2.5s;
+}
+
+/* Box 1 */
+
+.box1{
+  background: #1d0068;
+  border: 3px solid #1d0068;
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 2s;
+
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  animation: animate2 2.5s;
+}
+
+.box1:hover{
+  transform: rotate3d(1, 1, 1,-16deg);
+}
+
+.box1 h3{
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.box1 .icon{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #3cc376;
+  color: #1d0068;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 40px;
+  position: absolute;
+  bottom: -24px;
+  right: 34px;
+}
+
+
+/* Box 2 */
+.box2  p{
+ /*  color: #737177 !important; */
+ /*  text-transform: uppercase; */
+ font-size: 37px;
+  padding: 20px 20px 0 20px;
+  line-height: 1.2;
+}
+
+
+.box2 .search{
+  width: 150%;
+  height: 79px;
+  background: #C4C4C4;
+  border-radius: 40px 0px 0px 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 .background{
+  background: #1c006a;
+  width: 100%;
+  height: 200px;
+  border-radius: 0 0 8px 8px;
+}
+
+.box2 .background p{
+  color: #fff !important;
+}
+
+.box2 .icon{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: -29px;
+  top: 164px;
+  font-size: 62px;
+  color: #fff;
+}
+
+
+
+/* Box 3 */
+.box3{
+  background: #efefef;
+  
+  width: 60%;
+  height: auto;
+  border-radius: 8px;
+  transition: all 2s;
+  
+
+  position: relative;
+
+  animation: animate 2.5s;
+}
+
+.box3  p{
+/*   color: #737177 !important; */
+/*   text-transform: uppercase; */
+  font-size: 20px;
+  padding: 20px 20px 0 20px;
+}
+
+/* Box 4 */
+.box4{
+  background: #efefef;
+  width: 32%;
+  margin-top: 5%;
+  height: auto;
+  border-radius: 8px;
+  transition: all 2s;
+  position: relative;
+  animation: animate 2.5s;
+}
+
+
+.box4  p{
+  color: #737177 !important;
+ /*  text-transform: uppercase; */
+  font-size: 20px;
+  padding: 20px 20px 0 20px;
+}
+
+/* Box 6 */
+.box6{
+  background: #3cc27d;
+  border: 3px solid #3cc27d;
+  width: 60%;
+  height: auto;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: all 2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+
+  animation: animate2 2.5s;
+}
+
+.box6:hover{
+  transform: rotate3d(1, 1, 1,-16deg);
+}
+
+.box6 h3{
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+/* Box 7 */
+.box7.paso3{
+  border-bottom: 0px;
+}
+
+.box7{
+  border: 4px solid #3cc27d;
+  background: #fff;
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  transition: all 2s;
+  position: relative;
+  animation: animate 2.5s;
+}
+
+.box7  p{
+  color: #737177 !important;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 20px 20px 0 20px;
+}
+
+.box7 .background{
+  background: #efefef;
+  margin: 0;
+  border-radius: 4px;
+  color: #1d0068 !important;
+}
+
+/* Box 8 */
+.box8{
+  border: 4px solid #3cc27d;
+  background: #3cc27d;
+  width: 40vw;
+  height: auto;
+  border-radius: 8px;
+  transition: all 2s;
+  position: relative;
+  animation: animate 2.5s;
+}
+
+.box8  p{
+color: #1d0068 !important;
+text-transform: uppercase;
+font-size: 20px;
+padding: 20px 20px 0 20px;
+}
+
+.box8 h4{
+background: #fff;
+padding: 25px 20px;
+margin-left: 3px;
+color: #1d0068 !important;
+border-radius: 14px 0 0 14px;
+}
+
+.box8 .background{
+background: #efefef;
+margin: 0;
+border-radius: 4px;
+color: #1d0068 !important;
+}
+
+/* Box 9 */
+.box9{
+  border: 4px solid #1d0068;
+  background: #1d0068;
+  width: 58vw;
+  height: auto;
+  border-radius: 8px;
+  transition: all 2s;
+  position: relative;
+  padding: 30px;
+}
+
+.box9 h4{
+  background: #fff;
+  padding: 25px 20px;
+  margin-left: 3px;
+  color: #fff !important;
+  border-radius: 14px 0 0 14px;
+}
+
+.box9 p{
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 20px 20px 0 20px;
+}
+
+.box9 .number{
+  background: #3cc27d;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1d0068;
+  position: absolute;
+  font-size: 24px;
+  font-weight: 600;
+  left: -22px;
+}
+
+/* Box important */
+.box-important{
+  background: #1d0068;
+}
+
+
+
+
+/*
+#################
+# Container Box #
+#################
+*/
+.container{
+  display: flex;
+}
+
+.container.center{
+  justify-content: center !important;
+}
+
+.container.left{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+/*
+##############
+# Paso Badge #
+##############
+*/
+
+.paso{
+  background: #1d0068;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 9px;
+  position: absolute;
+  font-size: 37px;
+  max-width: 35%;
+  right: -29px;
+  top: -34px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+.paso-last{
+  background: #3cc27d;
+  color: #1d0068;
+  padding: 10px 20px;
+  border-radius: 9px;
+  position: absolute;
+  font-size: 30px;
+  max-width: 50%;
+  right: -29px;
+  top: -34px;
+  text-transform: uppercase;
+}
+
+.paso.right{
+  left: -29px !important;
+}
+
+
+
+
+
+
+
+/*
+###########
+# Vectors #
+###########
+*/
+
+.vector1{
+  left: -2%;
+  position: absolute;
+  z-index: 90;
+  width: 50%;
+}
+
+.vector2{
+  left: 10%;
+  position: absolute;
+  z-index: 90;
+  width: 50%;
+}
+
+.vector3{
+  right: 10%;
+  position: absolute;
+  z-index: 90;
+  width: 50%;
+}
+
+.vector4{
+  width: 60%;
+}
+
+.vector7{
+  width: 95%;
+}
+
+.vector8{
+  width: 84%;
+}
+
+
+
+
+/*
+###############
+# Button info #
+###############
+*/
+.btn-sections{
+  background: #fff !important;
+  border-radius: 50%;
+  border: 4px solid #3cc376;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  z-index: 99;
+  left: 16px;
+  bottom: 16px;
+}
+
+.btn-sections img{
+  width: 60%;
+}
+
+/* Card Menu */
+.card-menu{
+  transition: all 1s;
+  width: 340px;
+  height: 430px;
+  background: #fff;
+  position: fixed;
+  bottom: 120px;
+  
+  left: -493px;
+  border-radius: 9px;
+  border: 4px solid #3cc376;
+  z-index: 99;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px;
+}
+
+.card-menu.active{
+  left: 25px !important;
+}
+
+/* Message */
+.message{
+  background: #3cc27d;
+  color: #fff;
+  width: 400px;
+  text-align: center;
+  padding: 10px;
+  position: fixed !important;
+  bottom: 120px;
+  left: 44px;
+  z-index: 99;
+  transition: all 2s;
+  animation: message 3s;
+}
+
+.message .arrow{
+  width: 0;
+  height: 0;
+  border-left: 20px solid #3cc27d;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  transform: rotate(90deg);
+
+  position: absolute;
+  bottom: -16px;
+
+  
+}
+
+
+
+.message.deactive{
+  display: none;
+}
+
+
+
+
+/*  clases extras agregadas por JL */
+
+.pasoModi {
+  background: #1d0068;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 9px;
+  position: absolute;
+  font-size: 37px;
+  max-width: 53%;
+  right: -29px;
+  top: -34px;
+  text-transform: uppercase;
+}
+
+.pasoModi4 {
+  background: #1d0068;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 9px;
+  position: absolute;
+  font-size: 37px;
+  max-width: 53%;
+  left: -3%;
+  top: -34px;
+  text-transform: uppercase;
+}
+
+.formatP{
+  text-align: left; 
+  font-size: 36px !important; 
+  margin-left: 3% !important;
+  line-height: 1.4;
+}
+
+.formatPas4{
+  text-align: left; 
+  font-size: 34px !important; 
+  margin-left: 3% !important;
+  line-height: 1.4;
+}
+.formatPas5{
+  text-align: right; 
+  font-size: 35px !important; 
+  margin-right: 3% !important;
+  line-height: 1.4;
+}
+.green{
+ color:  #2bc27d;
+}
+.redd{
+ color: #de0208;
+}
+
+.pasoModi5 {
+  background: #1d0068;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 9px;
+  position: absolute;
+  font-size: 37px;
+  max-width: 64%;
+  right: -29px;
+  top: -34px;
+/*   text-transform: uppercase; */
+}
+
+/*  clases extras agregadas por JL fin */
+
+
+
+
+
+
+
+
+/*
+#################
+# Media Queries #
+#################
+*/
+
+@media screen and (max-width: 1190px) {
+
+.box6{
+  width: 94%;
+}
+
+.box9{
+  width: 74vw;
+}
+
+.box8{
+  width: 80vw;
+}
+
+.paso{
+  font-size: 19px !important;
+  max-width: 55% !important;
+}
+
+
+}
+
+/*
+##############
+# Animations #
+##############
+*/
+
+/*
+@keyframes animate{
+  from{
+    transform: scale(0)
+    
+  }
+  to{
+    transform: scale(1);
+    
+  }
+}
+
+@keyframes animate2{
+  from{
+    transform: scale(2);
+    
+  }
+  to{
+    transform: scale(1);
+    
+  }
+}
+
+@keyframes message {
+  from{
+    transform: scale(0);
+  }
+  to{
+    transform: scale(1);
+  }
+}
+
+*/

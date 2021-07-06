@@ -1,0 +1,2017 @@
+
+@media screen and (min-width: 100px) and (max-width: 540px) {
+
+/*###################### PASO A PASO #1  -- CREAR CUENTA ######################*/
+  .tutorial {
+    width: 280px;
+    border: 1px solid red;
+    color: #4d4d4f;
+    /*   text-align: center; */
+  }
+
+  .bc {
+    color: #1d0168;
+  }
+
+  .tutorial i {
+    font-size: 45px;
+    color: #1d0168;
+  }
+
+  .primerCuadrr {
+    position: relative;
+  }
+
+  .logocx {
+    width: 380px;
+  }
+
+  .contentCuenta {
+    margin-left: 10%;
+    width: 300px;
+  }
+
+  .cuentaWH {
+    position: relative;
+    margin-top: 6%;
+    margin-left: 1%;
+    width: 380px;
+    height: 200px;
+    border: 1px solid springgreen;
+  }
+  .cuenta {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 120px;
+    border: 4px solid #2bc27d;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .txtC {
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+    font-style: normal;
+  }
+  .pagW {
+    position: relative;
+    width: 650px;
+    height: 250px;
+    margin-left: 46%;
+    margin-top: 29%;
+    transition: 1s;
+  }
+
+  .payall:hover {
+    transform: scale(1.13);
+    transition: 1s;
+  }
+
+  .boxCuenta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .circulo {
+    /* Ellipse 2 */
+    position: absolute;
+    top: 24px;
+    right: -15px;
+    height: 60.80000305175781px;
+    width: 60.80000305175781px;
+    border-radius: 50px;
+    background: #2bc27d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .hh {
+    position: absolute;
+    width: 450px;
+    height: 900px;
+    right: -19%;
+    top: -240%;
+    z-index: 1;
+  }
+
+  .pasoU {
+    position: absolute;
+    top: -18%;
+    left: -8%;
+    width: 180px;
+    height: 56px;
+    background: #1d0168;
+    color: white;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+
+  .ingreso {
+    position: relative;
+    top: 50px;
+    left: 8%;
+    width: 600px;
+    height: 155.09px;
+    border: 4px solid #2bc27d;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-color: white;
+  }
+
+
+  .txtIg {
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+  }
+
+
+  .payall {
+    position: absolute;
+    bottom: 3%;
+    left: 17.5%;
+    width: 486px;
+    height: 80px;
+    transition: 1s;
+    z-index: 3;
+  }
+  
+  .pag {
+    position: absolute;
+    width: 392px;
+    height: 79px;
+    background: #c4c4c4;
+    border-radius: 40px 0px 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pag > span,
+  .pag > a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    color: #1d0168;
+    text-decoration: none;
+  }
+  
+  .buscar {
+    position: absolute;
+    width: 95px;
+    height: 79px;
+    right: 0;
+    background: #1d0168;
+    border-radius: 0px 40px 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .flechaUno{
+    position: absolute; 
+    top: 47%; 
+    right: -14%; 
+    width: 130px;
+  }
+
+
+
+
+/*###################### FIN PASO A PASO #1  -- CREAR CUENTA ######################*/
+
+/*###################### INCIO PASO #2  -- RECARGA CON NOSOTROS ######################*/
+.contentReCN{
+  position: relative;
+  border: 1px solid blue;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+}
+
+
+.recargCn{
+position: absolute; 
+/* border: 1px solid green; */
+width: 100%;
+height: 700px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+align-items:stretch;
+}
+/*###################### INCIO PASO #2  -- RECARGA CON NOSOTROS ######################*/
+
+/*###################### INCIO PASO #3  -- INFORMACION REQUERIDA ######################*/
+.inforReq {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+  height: 590px;
+  
+
+}
+
+
+/*###################### FIN PASO #3  -- INFORMACION REQUERIDA ######################*/
+/*###################### INCIO PASO #4Y5  -- ENVIAR Y CUENTA CREADA ######################*/
+
+.enviarInfor {
+  width: 1000px;
+}
+
+.enviar {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 395px;
+  border: 4px solid #2bc27d;
+  box-sizing: border-box;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pasCrea {
+  position: relative;
+  width: 100%;
+  height: 520px;
+}
+
+
+.crear {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 395px;
+  border: 4px solid #2bc27d;
+  box-sizing: border-box;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txtenviar,.txtcrear{
+  font-size: 28px;
+}
+
+.transf{
+  width :660px
+}
+
+.monedas{
+  position: absolute;
+  width: 180px;
+  height: 360px;
+  right: -20%;
+  top: 4%;
+  z-index: 1;
+}
+
+/*###################### INCIO PASO #7y8  -- Registro - dato errado ######################*/
+.compraCasopayy{
+  height:1100px;
+  width: 1000px;
+  
+
+}
+
+.txtregist, .txt ,.txtDs{
+  font-size: 30px;
+}
+.regist{
+  width: 350px;
+  height: 382px;
+  margin-top: 100px;
+
+}
+
+.pay{
+  position: relative;
+  top: 50px;
+  width: 350px;
+  height: 650px;
+  margin-top: 100px;
+}
+
+
+
+}
+@media screen and (min-width: 541px) and (max-width: 720px){
+  .tutorial {
+    width: 280px;
+    border: 1px solid red;
+    color: #4d4d4f;
+    /*   text-align: center; */
+  }
+
+  .bc {
+    color: #1d0168;
+  }
+
+  .tutorial i {
+    font-size: 45px;
+    color: #1d0168;
+  }
+
+  .primerCuadrr {
+    position: relative;
+  }
+
+  .logocx {
+    width: 380px;
+  }
+
+  .contentCuenta {
+    margin-left: 10%;
+    width: 300px;
+  }
+
+  .cuentaWH {
+    position: relative;
+    margin-top: 6%;
+    margin-left: 1%;
+    width: 380px;
+    height: 200px;
+    border: 1px solid springgreen;
+  }
+  .cuenta {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 120px;
+    border: 4px solid #2bc27d;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .txtC {
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+    font-style: normal;
+  }
+  .pagW {
+    position: relative;
+    width: 650px;
+    height: 250px;
+    margin-left: 46%;
+    margin-top: 29%;
+    transition: 1s;
+  }
+
+  .payall:hover {
+    transform: scale(1.13);
+    transition: 1s;
+  }
+
+  .boxCuenta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .circulo {
+    /* Ellipse 2 */
+    position: absolute;
+    top: 24px;
+    right: -15px;
+    height: 60.80000305175781px;
+    width: 60.80000305175781px;
+    border-radius: 50px;
+    background: #2bc27d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .hh {
+    position: absolute;
+    width: 450px;
+    height: 900px;
+    right: -19%;
+    top: -240%;
+    z-index: 1;
+  }
+
+  .pasoU {
+    position: absolute;
+    top: -18%;
+    left: -8%;
+    width: 180px;
+    height: 56px;
+    background: #1d0168;
+    color: white;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+
+  .ingreso {
+    position: relative;
+    top: 50px;
+    left: 8%;
+    width: 600px;
+    height: 155.09px;
+    border: 4px solid #2bc27d;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-color: white;
+  }
+
+
+  .txtIg {
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+  }
+
+
+  .payall {
+    position: absolute;
+    bottom: 3%;
+    left: 17.5%;
+    width: 486px;
+    height: 80px;
+    transition: 1s;
+    z-index: 3;
+  }
+  
+  .pag {
+    position: absolute;
+    width: 392px;
+    height: 79px;
+    background: #c4c4c4;
+    border-radius: 40px 0px 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pag > span,
+  .pag > a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    color: #1d0168;
+    text-decoration: none;
+  }
+  
+  .buscar {
+    position: absolute;
+    width: 95px;
+    height: 79px;
+    right: 0;
+    background: #1d0168;
+    border-radius: 0px 40px 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+  
+
+  .flechaUno{
+    position: absolute; 
+    top: 47%; 
+    right: -14%; 
+    width: 130px;
+  }
+  /*###################### FIN PASO A PASO #1  -- CREAR CUENTA ######################*/
+
+/*###################### INCIO PASO #2  -- RECARGA CON NOSOTROS ######################*/
+.contentReCN{
+  position: relative;
+  border: 1px solid blue;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+}
+
+
+.recargCn{
+position: absolute; 
+border: 1px solid green;
+width: 100%;
+height: 700px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+align-items:stretch;
+}
+
+/*###################### FIN PASO #3  -- INFORMACION REQUERIDA ######################*/
+/*###################### INCIO PASO #4Y5  -- ENVIAR Y CUENTA CREADA ######################*/
+
+.enviarInfor {
+  width: 1000px;
+}
+
+.enviar {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 395px;
+  border: 4px solid #2bc27d;
+  box-sizing: border-box;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pasCrea {
+  position: relative;
+  width: 100%;
+  height: 520px;
+}
+
+
+.crear {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 395px;
+  border: 4px solid #2bc27d;
+  box-sizing: border-box;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txtenviar,.txtcrear{
+  font-size: 28px;
+}
+
+.transf{
+  width :660px
+}
+
+.monedas{
+  position: absolute;
+  width: 180px;
+  height: 360px;
+  right: -20%;
+  top: 4%;
+  z-index: 1;
+}
+
+
+
+
+}
+
+
+@media screen and (min-width: 721px) and (max-width: 1024px){
+  .tutorial {
+    width: 280px;
+    border: 1px solid red;
+    color: #4d4d4f;
+    /*   text-align: center; */
+  }
+
+  .bc {
+    color: #1d0168;
+  }
+
+  .tutorial i {
+    font-size: 45px;
+    color: #1d0168;
+  }
+
+  .primerCuadrr {
+    position: relative;
+  }
+
+  .logocx {
+    width: 380px;
+  }
+
+  .contentCuenta {
+    margin-left: 10%;
+    width: 300px;
+  }
+
+  .cuentaWH {
+    position: relative;
+    margin-top: 6%;
+    margin-left: 1%;
+    width: 380px;
+    height: 200px;
+    border: 1px solid springgreen;
+  }
+  .cuenta {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 120px;
+    border: 4px solid #2bc27d;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .txtC {
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+    font-style: normal;
+  }
+  .pagW {
+    position: relative;
+    width: 650px;
+    height: 250px;
+    margin-left: 46%;
+    margin-top: 29%;
+    transition: 1s;
+  }
+
+  .payall:hover {
+    transform: scale(1.13);
+    transition: 1s;
+  }
+
+  .boxCuenta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .circulo {
+    /* Ellipse 2 */
+    position: absolute;
+    top: 24px;
+    right: -15px;
+    height: 60.80000305175781px;
+    width: 60.80000305175781px;
+    border-radius: 50px;
+    background: #2bc27d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .hh {
+    position: absolute;
+    width: 450px;
+    height: 900px;
+    right: -19%;
+    top: -240%;
+    z-index: 1;
+  }
+
+  .pasoU {
+    position: absolute;
+    top: -18%;
+    left: -8%;
+    width: 180px;
+    height: 56px;
+    background: #1d0168;
+    color: white;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+
+  .ingreso {
+    position: relative;
+    top: 50px;
+    left: 8%;
+    width: 600px;
+    height: 155.09px;
+    border: 4px solid #2bc27d;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-color: white;
+  }
+
+
+  .txtIg {
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+  }
+
+
+  .payall {
+    position: absolute;
+    bottom: 3%;
+    left: 17.5%;
+    width: 486px;
+    height: 80px;
+    transition: 1s;
+    z-index: 3;
+  }
+  
+  .pag {
+    position: absolute;
+    width: 392px;
+    height: 79px;
+    background: #c4c4c4;
+    border-radius: 40px 0px 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pag > span,
+  .pag > a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    color: #1d0168;
+    text-decoration: none;
+  }
+  
+  .buscar {
+    position: absolute;
+    width: 95px;
+    height: 79px;
+    right: 0;
+    background: #1d0168;
+    border-radius: 0px 40px 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+  
+
+  .flechaUno{
+    position: absolute; 
+    top: 47%; 
+    right: -14%; 
+    width: 130px;
+  }
+
+  /*###################### FIN PASO A PASO #1  -- CREAR CUENTA ######################*/
+
+/*###################### INCIO PASO #2  -- RECARGA CON NOSOTROS ######################*/
+.contentReCN{
+  position: relative;
+  border: 1px solid blue;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+}
+
+
+.recargCn{
+position: absolute; 
+border: 1px solid green;
+width: 100%;
+height: 700px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+align-items:stretch;
+}
+
+
+/*###################### FIN PASO #3  -- INFORMACION REQUERIDA ######################*/
+/*###################### INCIO PASO #4Y5  -- ENVIAR Y CUENTA CREADA ######################*/
+
+.enviarInfor {
+  width: 1000px;
+}
+
+.enviar {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 395px;
+  border: 4px solid #2bc27d;
+  box-sizing: border-box;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pasCrea {
+  position: relative;
+  width: 100%;
+  height: 520px;
+}
+
+
+.crear {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 395px;
+  border: 4px solid #2bc27d;
+  box-sizing: border-box;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txtenviar,.txtcrear{
+  font-size: 28px;
+}
+
+.transf{
+  width :660px
+}
+
+.monedas{
+  position: absolute;
+  width: 180px;
+  height: 360px;
+  right: -20%;
+  top: 4%;
+  z-index: 1;
+}
+
+
+
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1071px) {
+
+  .tutorial {
+    width: 100%;
+    border: 1px solid red;
+    color: #4d4d4f;
+    /*   text-align: center; */
+  }
+
+  .bc {
+    color: #1d0168;
+  }
+
+  .tutorial i {
+    font-size: 45px;
+    color: #1d0168;
+  }
+
+  .primerCuadrr {
+    position: relative;
+  }
+
+  .logocx {
+    width: 380px;
+  }
+
+
+  .cuenta {
+    width: 55%;
+  }
+
+  .enviarInfor{
+    width: 95%;
+    margin-left: 1%;
+  }
+  .hh{
+    width: 400px;
+    height: 800px;
+    right: -7%;
+    top: -215%;
+  }
+  .circulo {
+    right: 270px;
+  }
+  .pagW{
+    margin-left: 17%;
+  }
+  .txtC{
+    font-size: 34px;
+  }
+
+  .txtRecar{
+    font-size: 28px;
+  }
+
+  .txtRequest {
+    font-size: 37px;
+  }
+  .txtenviar{
+    font-size: 32px;
+  }
+
+  .txtcrear{
+    font-size: 32px;
+  }
+  .txttransf{
+    font-size: 32px;
+  }
+
+
+  .transf {
+    width: 600px;
+    left: -7%;
+  }
+
+  .enviar {
+    width: 350px;
+  }
+  .crear{
+    width: 350px;
+  }
+  .circulo3 {
+    left: 56%;
+  }
+  .monedas{
+    width: 180px;
+    height: 360px;
+    top:2%;
+    right: -22%;
+  }
+
+  .regist {
+    width: 350px;
+  }
+  .txtDs{
+    font-size: 28px;
+  }
+
+  .txt{
+    font-size: 32px;
+  }
+  .txtregist{
+    font-size: 32px;
+  }
+
+
+  .pay{
+    width: 356px;
+  }
+
+  .reaUTransfx{
+
+    width: 59%;
+
+  }
+
+  .reaUTransfx {
+    width: 58%;
+}
+
+.flechaSeis{
+  position: absolute; 
+  width: 120px;
+  top:6%; 
+  left: 14%; 
+  height: 145px; 
+  z-index: 0;
+
+}
+
+.ultiCajas{
+  width: 30%; 
+  margin-top: 24%;
+
+}
+  /*###################### FIN PASO A PASO #1  -- CREAR CUENTA ######################*/
+
+/*###################### INCIO PASO #2  -- RECARGA CON NOSOTROS ######################*/
+.contentReCN{
+  position: relative;
+  border: 1px solid blue;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+}
+
+
+.recargCn{
+position: absolute; 
+border: 1px solid green;
+width: 100%;
+height: 700px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+align-items:stretch;
+}
+
+}
+
+@media screen and (min-width: 1072px) and (max-width: 1217px) {
+  .logocx {
+    width: 388px;
+  }
+
+  .cuenta {
+    position: absolute;
+    top: 50px;
+    width: 388px;
+    height: 155.09px;
+    border: 4px solid #2bc27d;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .circulo {
+    right: 240px;
+  }
+  .pagW{
+    margin-left: 18%;
+  }
+
+  .hh{
+    width: 390px;
+    height: 680px;
+    right: -20%;
+    top: -190%;
+    
+  }
+  .txtC{
+    font-size: 37px;
+  }
+
+  .txtRecar{
+    font-size: 28px;
+  }
+
+  .txtRequest {
+    font-size: 37px;
+  }
+  .txtenviar{
+    font-size: 32px;
+  }
+
+  .txtcrear{
+    font-size: 32px;
+  }
+  .txttransf{
+    font-size: 32px;
+  }
+
+  .transf {
+    width: 600px;
+  }
+
+  .enviar {
+    width: 350px;
+  }
+  .crear{
+    width: 350px;
+  }
+  .circulo3 {
+    left: 56%;
+  }
+  .monedas{
+    width: 180px;
+    height: 360px;
+    top:2%;
+  }
+  .regist {
+    width: 350px;
+  }
+  .txtDs{
+    font-size: 28px;
+  }
+  
+  .txt{
+    font-size: 32px;
+  }
+  .txtregist{
+    font-size: 32px;
+  }
+  
+  
+  .pay{
+    width: 356px;
+  }
+
+  .enviarInfor {
+    width: 85%;
+    margin-left: 5%;
+  }
+
+  .reaUTransfx {
+    width: 60%;
+}
+
+.flechaSeis{
+  position: absolute; 
+  width: 120px;
+  top:6%; 
+  left: 14%; 
+  height: 145px; 
+  z-index: 1;
+
+}
+
+.ultiCajas{
+  width: 29%; 
+  margin-top: 22%;
+
+}
+
+
+  /*###################### FIN PASO A PASO #1  -- CREAR CUENTA ######################*/
+
+/*###################### INCIO PASO #2  -- RECARGA CON NOSOTROS ######################*/
+.contentReCN{
+  position: relative;
+  border: 1px solid blue;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+}
+
+
+.recargCn{
+position: absolute; 
+border: 1px solid green;
+width: 100%;
+height: 700px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+align-items:stretch;
+}
+/*###################### FIN PASO #2  -- RECARGA CON NOSOTROS ######################*/
+/*###################### INCIO PASO #3  -- INFORMACION REQUERIDA ######################*/
+
+
+.inforReq {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+  height: 590px;
+  width: 100%;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 1218px) and (max-width: 1332px) {
+
+  .tutorial {
+    width: 100%;
+    border: 1px solid red;
+    color: #4d4d4f;
+    /*   text-align: center; */
+  }
+
+  .logocx {
+    width: 388px;
+  }
+  .cuenta {
+    width: 60%;
+  }
+  .circulo {
+    right: 244px;
+  }
+  .pagW{
+    margin-left: 22.5%;
+  }
+
+  .txtC {
+    font-size: 34px;
+  }
+
+ 
+  .txtRecar{
+    font-size: 34.5px;
+  }
+
+  .txtRequest {
+    font-size: 37px;
+  }
+  .txtenviar{
+    font-size: 32px;
+  }
+  .txttransf{
+    font-size: 32px;
+  }
+  .transf {
+    width: 600px;
+  }
+
+  .txtcrear{
+    font-size: 32px;
+  }
+
+  .enviar {
+    width: 350px;
+  }
+  .crear{
+    width: 350px;
+  }
+
+
+  .circulo3 {
+    left: 48%;
+  }
+  .monedas{
+    width: 180px;
+    height: 360px;
+    top:2%;
+  }
+
+
+  .regist {
+    width: 350px;
+  }
+  .txtDs{
+    font-size: 30px;
+  }
+  
+  .txt{
+    font-size: 36px;
+  }
+  .txtregist{
+    font-size: 37px;
+  }
+  
+  
+  .pay{
+    width: 380px;
+  }
+
+  /* .laptopImg {
+    width: 572px;
+    margin-top: 4%;
+   
+  } */
+
+  .enviarInfor {
+    width: 77%;
+    margin-left: 10%;
+  }
+  
+  .reaUTransfx{
+
+    width: 60%;
+
+  }
+
+  .flechaSeis{
+    position: absolute; 
+    width: 120px;
+    top:6%; 
+    left: 15.4%; 
+    height: 145px; 
+    z-index: 1;
+  
+  }
+  
+  .ultiCajas{
+    width: 30%; 
+    margin-top: 19.8%;
+  
+  }
+
+
+  /*###################### FIN PASO A PASO #1  -- CREAR CUENTA ######################*/
+
+/*###################### INCIO PASO #2  -- RECARGA CON NOSOTROS ######################*/
+.contentReCN{
+  position: relative;
+  border: 1px solid blue;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+}
+
+
+.recargCn{
+position: absolute; 
+border: 1px solid green;
+width: 100%;
+height: 700px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+align-items:stretch;
+}
+/*###################### FIN PASO #2  -- RECARGA CON NOSOTROS ######################*/
+/*###################### INCIO PASO #3  -- INFORMACION REQUERIDA ######################*/
+
+
+.inforReq {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+  height: 590px;
+  width: 100%;
+}
+
+
+
+}
+
+
+@media screen and (min-width: 1333px) and (max-width: 1472px) {
+
+  .tutorial {
+    width: 100%;
+    border: 1px solid red;
+    color: #4d4d4f;
+  }
+
+  .logocx {
+    width: 388px;
+  }
+
+  .enviarInfor {
+    width: 65% !important;
+    margin-left: 17% !important;
+  }
+
+  .reaUTransfx{
+    width: 60%;
+  }
+
+  .cuenta {
+    width: 60%;
+  }
+  .circulo {
+    right: 244px;
+  }
+  .pagW{
+    margin-left: 24%;
+  }
+
+  .txtC {
+    font-size: 34px;
+  }
+
+ 
+  .txtRecar{
+    font-size: 37px;
+  }
+
+  .txtRequest {
+    font-size: 37px;
+  }
+  .txtenviar{
+    font-size: 32px;
+  }
+  .txttransf{
+    font-size: 32px;
+  }
+  .transf {
+    width: 600px;
+  }
+
+  .txtcrear{
+    font-size: 32px;
+  }
+
+  .enviar {
+    width: 350px;
+  }
+  .crear{
+    width: 350px;
+  }
+
+
+  .circulo3 {
+    left: 48%;
+  }
+  .monedas{
+    width: 180px;
+    height: 360px;
+    top:2%;
+  }
+
+
+  .regist {
+    width: 350px;
+  }
+  .txtDs{
+    font-size: 30px;
+  }
+  
+  .txt{
+    font-size: 36px;
+  }
+  .txtregist{
+    font-size: 37px;
+  }
+  
+  
+  .pay{
+    width: 380px;
+  }
+
+  .laptopImg {
+    width: 600px;
+    margin-top: 4%;
+    margin-left: 2%;
+   
+  }
+
+  .ultiCajas{
+    width: 27%; 
+    margin-top: 16.8%;
+  
+  }
+
+  .flechaSeis{
+    position: absolute; 
+    width: 120px;
+    top:5.5%; 
+    left: 21.4%; 
+    height: 145px; 
+    z-index: 1;
+  
+  }
+
+  /*###################### FIN PASO A PASO #1  -- CREAR CUENTA ######################*/
+
+/*###################### INCIO PASO #2  -- RECARGA CON NOSOTROS ######################*/
+.contentReCN{
+  position: relative;
+  border: 1px solid blue;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+}
+
+
+.recargCn{
+position: absolute; 
+border: 1px solid green;
+width: 100%;
+height: 700px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+align-items:stretch;
+
+} 
+
+/*###################### FIN PASO #2  -- RECARGA CON NOSOTROS ######################*/
+/*###################### INCIO PASO #3  -- INFORMACION REQUERIDA ######################*/
+
+
+.inforReq {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+  height: 590px;
+  width: 100%;
+}
+
+}
+@media screen and (min-width: 1470px) and (max-width: 1561px) {
+
+  .tutorial {
+    width: 100%;
+    border: 1px solid red;
+    color: #4d4d4f;
+  }
+
+  .logocx {
+    width: 388px;
+  }
+
+
+
+  .enviarInfor {
+    width: 65% !important;
+    margin-left: 17% !important;
+  }
+
+  .reaUTransfx{
+    width: 60%;
+  }
+
+
+  .cuenta {
+    width: 60%;
+  }
+  .circulo {
+    right: 244px;
+  }
+  .pagW{
+    margin-left: 24%;
+  }
+
+  .txtC {
+    font-size: 34px;
+  }
+
+ 
+  .txtRecar{
+    font-size: 37px;
+  }
+
+  .txtRequest {
+    font-size: 37px;
+  }
+  .txtenviar{
+    font-size: 32px;
+  }
+  .txttransf{
+    font-size: 32px;
+  }
+  .transf {
+    width: 600px;
+  }
+
+  .txtcrear{
+    font-size: 32px;
+  }
+
+  .enviar {
+    width: 350px;
+  }
+  .crear{
+    width: 350px;
+  }
+
+
+  .circulo3 {
+    left: 48%;
+  }
+  .monedas{
+    width: 180px;
+    height: 360px;
+    top:2%;
+  }
+
+
+  .regist {
+    width: 350px;
+  }
+  .txtDs{
+    font-size: 30px;
+  }
+  
+  .txt{
+    font-size: 36px;
+  }
+  .txtregist{
+    font-size: 37px;
+  }
+  
+  
+  .pay{
+    width: 380px;
+  }
+
+  .laptopImg {
+    width: 622px;
+    margin-top: 3%;
+    margin-left: 11%;
+   
+  }
+
+  .ultiCajas{
+    width: 27%; 
+    margin-top: 14.8%;
+  
+  }
+
+  .flechaSeis{
+    position: absolute; 
+    width: 120px;
+    top:6%; 
+    left: 22.4%; 
+    height: 145px; 
+    z-index: 1;
+  
+  }
+
+  .reaUTransfx {
+    width: 65%;
+}
+
+/*###################### FIN PASO A PASO #1  -- CREAR CUENTA ######################*/
+
+/*###################### INCIO PASO #2  -- RECARGA CON NOSOTROS ######################*/
+.contentReCN{
+  position: relative;
+  border: 1px solid blue;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+}
+
+
+.recargCn{
+position: absolute; 
+border: 1px solid green;
+width: 100%;
+height: 700px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+align-items:stretch;
+
+}
+
+/*###################### FIN PASO #2  -- RECARGA CON NOSOTROS ######################*/
+/*###################### INCIO PASO #3  -- INFORMACION REQUERIDA ######################*/
+
+
+.inforReq {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+  height: 590px;
+  width: 100%;
+}
+
+}
+
+
+@media screen and (min-width: 1562px) and (max-width: 1791px) {
+
+  .tutorial {
+    width: 100%;
+    border: 1px solid red;
+    color: #4d4d4f;
+  }
+
+  .logocx {
+    width: 487px;
+  }
+
+  .enviarInfor {
+   
+    width: 77% !important;
+    margin-left: 12% !important;
+  }
+  
+  .cuenta {
+    width: 75%;
+   
+  }
+  .circulo {
+    right: 144px;
+  }
+  .pagW{
+    margin-left: 27.5%;
+  }
+  
+  .txtIg {
+    font-size: 35px;
+  }
+  
+  .payall {
+    left: 15%;
+  }
+
+
+  .txtC{
+    font-size: 40px;
+  }
+
+  .txtRecar {
+    font-size: 36px;
+  }
+  .txtRequest {
+    font-size: 40px;
+  }
+
+
+.ultiCajas{
+    width: 27%; 
+    margin-top: 14.8%;
+  
+}
+
+.flechaSeis{
+    position: absolute; 
+    width: 120px;
+    top:6%; 
+    left: 18%; 
+    height: 145px; 
+    z-index: 1;
+  
+}
+/*###################### FIN PASO A PASO #1  -- CREAR CUENTA ######################*/
+
+/*###################### INCIO PASO #2  -- RECARGA CON NOSOTROS ######################*/
+.contentReCN{
+  position: relative;
+  border: 1px solid blue;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+}
+
+
+.recargCn{
+position: absolute; 
+border: 1px solid green;
+width: 100%;
+height: 700px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+align-items:stretch;
+
+}
+
+.laptopImg {
+  width: 622px;
+  margin-top: 3%;
+  margin-left: 20%;
+ 
+}
+
+/*###################### FIN PASO #2  -- RECARGA CON NOSOTROS ######################*/
+/*###################### INCIO PASO #3  -- INFORMACION REQUERIDA ######################*/
+
+
+.inforReq {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+  height: 590px;
+  width: 100%;
+}
+
+
+}
+
+
+@media screen and (min-width: 1792px) and (max-width: 2000px){
+
+  .tutorial {
+    width: 100%;
+    border: 1px solid red;
+    color: #4d4d4f;
+  }
+
+  .logocx {
+    width: 487px;
+  }
+
+  .enviarInfor {
+    width: 60% !important;
+    margin-left: 17.5% !important;
+    
+  }
+  .flechaCuatro{
+    position: absolute; 
+    top: 22%!important;
+    height: 145px; 
+    left: 51.7%; 
+    z-index: -1;
+    transform: rotate(270deg);
+  }
+  
+  .cuenta {
+    width: 75%;
+   
+  }
+  .circulo {
+    right: 144px;
+  }
+  .pagW{
+    margin-left: 30%;
+  }
+  
+  .txtIg {
+    font-size: 35px;
+  }
+  
+  .payall {
+    left: 15%;
+  }
+
+
+  .txtC{
+    font-size: 40px;
+  }
+
+  .txtRecar {
+    font-size: 36px;
+  }
+  .txtRequest {
+    font-size: 40px;
+  }
+
+  .ultiCajas{
+    width: 28%; 
+    margin-top: 14.5%;
+  
+}
+
+.flechaSeis{
+    position: absolute; 
+    width: 120px;
+    top:6%; 
+    left: 18.5%; 
+    height: 145px; 
+    z-index: 1;
+  
+}
+
+.reaUTransfx {
+  width: 78%;
+}
+
+/*###################### FIN PASO A PASO #1  -- CREAR CUENTA ######################*/
+
+/*###################### INCIO PASO #2  -- RECARGA CON NOSOTROS ######################*/
+.contentReCN{
+  position: relative;
+  border: 1px solid blue;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+}
+
+
+.recargCn{
+position: absolute; 
+border: 1px solid green;
+width: 100%;
+height: 700px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+align-items:stretch;
+
+}
+
+.laptopImg {
+  width: 622px;
+  margin-top: 3%;
+  margin-left: 20%;
+ 
+}
+
+/*###################### FIN PASO #2  -- RECARGA CON NOSOTROS ######################*/
+/*###################### INCIO PASO #3  -- INFORMACION REQUERIDA ######################*/
+
+
+.inforReq {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+  height: 590px;
+  width: 100%;
+}
+
+
+}
+
+
+
+
+
+
+
