@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="Payall te invita a formar parte de esta gran familia. Juntos respondemos a las nuevas exigencias del mercado. Trabajamos de la mano junto a ejecutivos y técnicos asignados en el territorio nacional que les visitan, asesoran, aclaran dudas y observan para mejorar el servicio y atención">
+    <title>Payall</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="img/icono.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="icons/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/stylescajas.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+    
+</head>
+<body>
+<header class="header" id="header">
+    <span class="burguer-button" id="burguer-button">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </span>
+    <nav class="menu">
+        <ul class="header-number">
+            <li class="item-number">
+                <img src="img/PAYALL%20LOGO.svg" alt="">
+            </li>
+            <li class="item-number">
+                <i class="fa fa-phone fa-fw"></i>recarga
+                <span>
+            (+58)(281) 500.2150
+          </span>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="#nosotros" class="u-item ui-header">
+                    <i class="fa fa-users fa-fw u-iconcolor" aria-hidden="true"></i>
+                    Nosotros
+                </a>
+            </li>
+            <li>
+                <a href="#productos" class="u-item ui-header">
+                    <i class="fa fa-desktop fa-fw u-iconcolor" aria-hidden="true"></i>
+                    Productos
+                </a>
+            </li>
+            <li>
+                <a href="#ventajas" class="u-item ui-header">
+                    <i class="fa fa-thumbs-up fa-fw u-iconcolor" aria-hidden="true"></i>
+                    Ventajas
+                </a>
+            </li>
+            <li class="u-item">
+                <a href="#aliados" class="u-item ui-header">
+                    <i class="fa fa-shopping-cart fa-fw u-iconcolor" aria-hidden="true"></i>
+                    Aliados
+                </a>
+            </li>
+            <li>
+                <a href="#contactanos" class="u-item ui-header">
+                    <i class="fa fa-envelope-o u-iconcolor" aria-hidden="true"></i>
+                    Cont&aacute;ctanos</a>
+            </li>
+            <li>
+                <a href="https://panel.payall.com.ve" target="_blank" class="u-item ui-header">
+                    <i class="fa fa-users fa-fw" aria-hidden="true"></i>
+                    Acceso
+                </a>
+            </li>
+            <li>
+                <a href="instrucciones.html" class="u-item ui-header">
+                    <i class="fa fa-book fa-fw" aria-hidden="true"></i>
+                    Como funciona ?
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<section style="position: relative; width: 100%; height: 100%; /* border: 1px solid blue;  */margin-top: 80px; margin-bottom: 15px; ">
+  <div style="width: 100%; /* border: 1px solid red; */ position: relative;"> 
+   <img src="pass/bloque1.gif" style="width: 100%;" alt="">
+  </div>
+
+  <div style="width: 100%;  position: relative; margin-top:-3.8%; z-index: 2 !important;"> 
+    <img src="pass/bloque2.gif" style="width: 100%;" alt="">
+   </div>
+
+   <div style="width: 100%;  position: relative;margin-top:-2.8%;z-index: 3;"> 
+    <img src="pass/bloque3.gif" style="width: 100%;" alt="">
+   </div>
+
+  <div style="width: 100%;  position: relative;"> 
+    <img src="pass/bloque4.gif" style="width: 100%;" alt="">
+   </div>
+</section>
+
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/smooth-scroll-master/dist/js/smooth-scroll.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/hammer.min.js"></script>
+<script src="js/jquery.hammer.js"></script>
+
+<script>
+    $(function () {
+        var consulta = window.matchMedia('(max-width: 1024px)');
+        var removeEffect = window.matchMedia('(max-width: 350px)');
+        var $header = $('#header');
+        var $burguerButton = $('#burguer-button');
+        var $btnForm = $('#btnForm');
+        var $boxModal = $('#boxModal');
+        var $formSend = $('#form');
+        var $formCaptacion = $('#form-captacion');
+        var $contactBoxMessage = $('#contact-result-message');
+        var $catchmentBoxMessage = $('#catchment-result-message');
+        var $body = document.body;  //Se usa vainilla para compatibilidad con Hammer
+        var gestos = new Hammer($body);
+        var baseUrl = 'https://panel.payall.com.ve';
+        var messageProblemConexion = 'En estos momentos no es posible acceder a la plataforma, por favor intente en otro momento';
+        var titleProblemConexion = 'Problemas de conexión';
+        var titleDataSave = 'Solicitud realizada';
+        var loadButton = 'Enviando...';
+        var buttonMessage = 'Enviar';
+
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 700
+        });
+
+        consulta.addListener(mediaquery);
+
+        $('.informative-container').waypoint(function () {
+            var $title = $('.informative-title')
+            var classTitle = 'fadeIn';
+            var $description = $('.informative-p');
+            var classDescription = 'fadeInUp';
+
+            checkClassName($title, classTitle);
+            checkClassName($description, classDescription);
+        }, {
+            offset: '75%'
+        });
+
+        $('.benefits-container').waypoint(function () {
+            var className = 'fadeInUp';
+
+            checkClassName($('.benefits-article'), className);
+        }, {
+            offset: '75%'
+        });
+
+
+        $('.product-article-container').waypoint(function () {
+            var className = 'bounceIn';
+
+            checkClassName($('.product-article'), className);
+
+        }, {
+            offset: '50%'
+        });
+
+
+        $('.allies-container').waypoint(function () {
+            var $element = $('.allies-img');
+            var className = 'bounceIn';
+
+            checkClassName($element, className);
+        }, {
+            offset: '80%'
+        });
+
+        function checkClassName($element, className) {
+            if (consulta.matches) return
+
+            if ($element.hasClass(className)) {
+                $element.removeClass(className);
+            } else {
+                $element.addClass(className);
+            }
+        }
+
+        $('.box-slicker').slick({
+            adaptiveHeight: true,
+            infinite: true,
+            arrows: true,
+            autoplay: true,
+            autoplaySpeed: 4000,
+        });
+
+        function showMenu() {
+            $header.addClass('active');
+        }
+
+        function hideMenu() {
+            $header.removeClass('active');
+        }
+
+        function toggleMenu() {
+            $header.toggleClass('active');
+        }
+
+        function mediaquery() {
+            if (consulta.matches) {
+                $burguerButton.on('click', toggleMenu);
+            } else {
+                $burguerButton.off('click', toggleMenu);
+            }
+        }
+
+        function cleanForm($el) {
+            $el.find('div[class="form-group has-error"]').removeClass('has-error');
+            $el.find('input').val('');
+        }
+
+        function showResultMessage(title, className) {
+            var alertClass = 'alert-' + className;
+            return function ($box) {
+                return function (message) {
+                    $box.find('strong').text(title);
+                    $box.find('p').text(message);
+                    $box.addClass(alertClass);
+
+                    setTimeout(function () {
+                        hide($box, alertClass);
+                    }, 6000);
+
+                    $box.fadeIn();
+                }
+            }
+        }
+
+        function hide($el, className) {
+            $el.fadeOut();
+            $el.find('strong').text('');
+            $el.find('p').text('');
+            $el.removeClass(className);
+        }
+
+        function toggleButton($button, load) {
+            if (load) {
+                $button.prop('disabled', true);
+                $button.text(loadButton);
+            } else {
+                $button.prop('disabled', false);
+                $button.text(buttonMessage)
+            }
+        }
+
+        var danger = showResultMessage(titleProblemConexion, 'danger');
+        var success = showResultMessage(titleDataSave, 'success');
+        var contactMessageSuccess = success($contactBoxMessage);
+        var contactMessageError = danger($contactBoxMessage);
+        var catchmentMessageSuccess = success($catchmentBoxMessage);
+        var catchmentMessageError = danger($catchmentBoxMessage);
+
+        function formError(prefix) {
+            var separator = ', ';
+            return function (errors) {
+                $.each(errors, function (field, fieldErrors) {
+                    var $field = $('#' + prefix + field);
+
+                    if (fieldErrors.length > 0) {
+                        var errorMessage = '';
+                        $.each(fieldErrors, function (i, fieldError) {
+                            errorMessage += errorMessage.length > 0 ? separator + fieldError : fieldError;
+                        });
+
+                        $field.tooltip('destroy');
+                        $field.tooltip({'title': errorMessage});
+                        $field.closest('div[class="form-group"]').addClass('has-error');
+                    } else {
+                        $field.closest('div[class="form-group has-error"]').removeClass('has-error');
+                        $field.tooltip('destroy');
+                    }
+                });
+            }
+        }
+
+        var errorContacto = formError('site_contacto_');
+        var errorCaptacion = formError('site_captacion_');
+
+        mediaquery();
+
+
+        $formSend.on('submit', function (e) {
+            e.preventDefault();
+
+            var url = baseUrl + '/site/contacto';
+            var $form = $(this);
+            var $button = $form.find('button[type="submit"]');
+            var data = $form.serialize();
+
+            toggleButton($button, true);
+
+            $.post(url, data)
+                .done(function (res) {
+                    console.log(res);
+                    if (res.success) {
+                        contactMessageSuccess(res.mensaje);
+                        cleanForm($form);
+                    } else {
+                        errorContacto(res.errors);
+                    }
+
+                    toggleButton($button, false);
+
+                })
+                .fail(function (err) {
+                    contactMessageError(messageProblemConexion);
+                    toggleButton($button, false);
+                });
+        });
+
+        $formCaptacion.on('submit', function (e) {
+            e.preventDefault();
+
+            var url = baseUrl + '/site/captacion';
+            var $form = $(this);
+            var $button = $form.find('button[type="submit"]');
+            var data = $form.serialize();
+
+            toggleButton($button, true);
+
+            $.post(url, data)
+                .done(function (res) {
+                    if (res.success) {
+                        catchmentMessageSuccess(res.mensaje);
+                        cleanForm($form);
+
+                        setTimeout(function () {
+                            $boxModal.modal('hide');
+                        }, 6000)
+                    } else {
+                        errorCaptacion(res.errors);
+                    }
+
+                    toggleButton($button, false);
+
+                })
+                .fail(function (err) {
+                    catchmentMessageError(messageProblemConexion);
+                    toggleButton($button, false);
+                })
+        });
+
+        gestos.on('swipeleft', hideMenu);
+        gestos.on('swiperight', showMenu);
+
+        function aviso(){
+            $('#myModal').modal();
+        }
+
+        $('#btnAviso').on('click',function () {
+            aviso();
+        })
+        aviso();
+    });
+</script>
+</body>
+</html>
